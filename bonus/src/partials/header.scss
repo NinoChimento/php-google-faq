@@ -7,5 +7,24 @@
   img {
   width: 150px;
   }
-
+}
+header {
+  width: 100%;
+  border-bottom: 1px solid black;
+  ul {
+    display: flex;
+    list-style: none;
+    li{
+      padding:20px;
+      a{
+        color: $colorHeader;
+        text-decoration: none;
+        font-weight: bold;
+      }
+    }
+    & li:last-child a {
+      color: blue;
+      text-decoration: underline;
+    }
+  }
 }
