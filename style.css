@@ -1,3 +1,29 @@
-body{
-  background-color: red;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  color: #61656A;
+}
+header {
+  width: 100%;
+  border-bottom: 1px solid black;
+}
+a {
+  padding: 20px;
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  color: #61656A;
+}
+header img {
+  width: 150px;
+}
+ul {
+  display: flex;
+  list-style: none;
+}
+li {
+  padding: 0 10px;
 }
