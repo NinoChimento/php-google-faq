@@ -1,4 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  background-color: red;
+  width: 100%;
+  color: #DCDDDE;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  color: #DCDDDE;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.logo img {
+  width: 150px;
 }
 

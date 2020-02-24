@@ -6,6 +6,11 @@
     <title></title>
   </head>
   <body>
-
+    <header>
+      <a class="logo"href="#">
+        <img src="../img/download.png" alt="">
+        <h2>Privacy e termini</h2>
+      </a>
+    </header>
   </body>
 </html>
