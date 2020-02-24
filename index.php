@@ -38,8 +38,11 @@ var_dump($db);
     </header>
     <!-- fine header -->
     <main>
-      <?php foreach ($db as $key => $value) {?>
+      <?php foreach ($db as $key => $faq) {?>
         <h2><?php echo $key; ?></h2>
+        <?php foreach ($faq as $key => $risposta) {?>
+            <p><?php echo $risposta; ?></p>
+        <?php } ?>
       <?php } ?>
     </main>
   </body>
